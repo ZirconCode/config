@@ -16,7 +16,8 @@ Install Notes (ontop of default Ubuntu):
 * Install requirements of vicfryzel/xmonad-config use Synaptic to find newer packages when necessary
 * `sudo apt-get install xmonad`
 * Setup Path Variables: `echo "export PATH=\$PATH:~/.cabal/bin:~/.xmonad/bin" >> ~/.bashrc`
-* for lightdm login manager (default), move `AmazingXMONAD` to `/usr/share/xsessions`
+* for lightdm login manager (default), move `custom.desktop` to `/usr/share/xsessions`
+  it might show up as `AmazingXMONAD` in your file manager
 * move `.xsession` to `~/.xsession`
 * move `.xmonad` to `~/.xmonad/`
 * Log out, pick the AmazingXMONDA session, enjoy =)
