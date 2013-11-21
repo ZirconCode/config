@@ -12,6 +12,8 @@ The setup is adapted from `https://github.com/vicfryzel/xmonad-config`.
 I had quite the trouble getting it running on my standard Ubuntu install, so here is my version of it. I will also try to explain what is happening, allowing you to change things as you see fit.
 
 
+**Requirements**
+
 You will need all the files in the Xmonad folder, so get those first:
 
 `git clone https://github.com/ZirconCode/config.git`
@@ -32,6 +34,8 @@ You will also need to update cabal after installing it. Cabal is a build tool fo
 
 Now that we have all the requirements, we can start setting things up =)
 
+**.xmonad**
+
 Copy the `.xmonad` folder to `~/.xmonad`. For me this was `/home/simon/.xmonad` as simon is my current username. This folder contains all the configuration files xmonad will need. They are mostly written in haskell. Here's a brief overview, I encourage you to take a look at them:
 
 
@@ -39,9 +43,13 @@ Copy the `.xmonad` folder to `~/.xmonad`. For me this was `/home/simon/.xmonad` 
  * `xmobar.hs` - The config file for Xmobar. Xmobar is the black small bar you will see at the top of your screen, it will be your taskbar. You can make anything appear there. Notably, you might want to change your location from 'LSZH', or Zuerich Switzerland, to something else. For details, visit http://projects.haskell.org/xmobar/
 
 
+**Adding Xmonad to your Login Manager**
+
 Now we need to make Xmonad accessible from the login screen. I will assume you are using **lightdm**, the current default login manager for Ubuntu.
 
 In the Xmonad folder, you will find a file called `custom.desktop`. If you are looking at it in your file browser, it will most likely display as `AmazingXMONAD`. Copy this file to `/usr/share/xsessions`. This will add a new option called AmazingXMONAD to your login screen. This should be accessible on the top right of the login box, as a circular button. Anytime you login now, you can pick Xmonad as your window manager.
+
+If you open the file, you will discover why it might show up as AmazingXMONAD. You may rename this to whatever your desire.
 
 
 **The Path Variables**
@@ -61,7 +69,7 @@ Lastly, we need to tell xsession what to do after being called from lightdm, thr
 Log out, Pick AmazingXMONAD, Log in, Enjoy!
 
 
-**Troubleshooting*
+**Troubleshooting**
 
 Most Errors should be displayed in `~/.xsession-errors`.
 
