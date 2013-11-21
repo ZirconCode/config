@@ -57,11 +57,12 @@ If you open the file, you will discover why it might show up as AmazingXMONAD. Y
 Lastly, we need to set up the dreaded path variable. When you run echo `echo $PATH` in your console, you will see what the variable contains. These are the paths Ubuntu and xmonad will look at to find their configuration files. We need to add `~/.xmonad/bin` to this variable, so that xmonad can set itself up properly. We also need to add `~/.cabal/bin` because xmonad requires cabal for it's Haskell magic. To do this, run:
 
 `echo "export PATH=\$PATH:~/.cabal/bin:~/.xmonad/bin" >> ~/.bashrc`
+
 `source ~/.bashrc`
 
 Now, if you call `echo $PATH` again, you should have the correct paths in there.
 
-**.xsession*
+**.xsession**
 
 Lastly, we need to tell xsession what to do after being called from lightdm, through the entry we have added earlier. To do this copy the file `.xsession` to your `~/` home path. The file should be located at `~/.xsession`. Now, when xsession is called for your username, this file will be executed. You could add your startup programs to this file, for example adding `google-chrome &` would start google chrome when you enter xmonad, provided google-chrom is installed of course.
 
