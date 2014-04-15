@@ -5,6 +5,8 @@
 # It usually defeats the purpose of git to auto-commit
 # Since a day is the smallest atomic unit in my diary, and since I am lazy, this is fine
 
+# !Assumes no enter usr/pwd
+
 # CONFIG ---
 repos = []
 repos << '/home/simon/Desktop/Writting'   # Mostly Diary 
