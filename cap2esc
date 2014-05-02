@@ -1,0 +1,7 @@
+! xmodmap
+! Swap caps lock and escape
+! add to .xinitrc (mostly for vim)
+remove Lock = Caps_Lock
+keysym Escape = Caps_Lock
+keysym Caps_Lock = Escape
+add Lock = Caps_Lock
