@@ -21,7 +21,7 @@ You will need all the files in the Xmonad folder, so get those first:
 
 First we will need to install the dependencies:
 
-    sudo apt-get install xmonad libghc6-xmonad-contrib-dev xmobar stalonetray \
+    sudo apt-get install xmonad libghc-xmonad-contrib-dev xmobar stalonetray \
     suckless-tools scrot cabal-install
 
 Some of these packages might be outdated for you. It will tell you which ones it couldn't find. You will need to hunt for them yourself using a package manager like Synpatic. 
