@@ -1,8 +1,4 @@
-# ZirconCode's global .gitignore
-# git config --global core.excludesfile '~/.gitignore'
-
-*.log
-*.sql
-*.sqlite
-
-*~
+xmonad-x86_64-linux
+xmonad.errors
+xmonad.hi
+xmonad.o
