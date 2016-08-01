@@ -1,0 +1,11 @@
+# ZirconCode's global .gitignore
+# git config --global core.excludesfile '~/.global_gitignore'
+
+# TODO, put in proper location:
+# git config --global alias.undo-commit 'reset --soft HEAD^'
+
+*.log
+*.sql
+*.sqlite
+
+*~
