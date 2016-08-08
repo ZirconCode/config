@@ -1,0 +1,12 @@
+# fish wttr alias
+
+
+# Weather
+function weather --argument-names 'city'
+    if test -n "$city"
+        curl wttr.in/$argv
+    else
+        curl wttr.in
+    end
+end
+
