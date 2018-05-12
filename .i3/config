@@ -19,30 +19,16 @@
 
 ## colors
 
-## from old xmonad theme: Currently based on the ir_black theme.
-set $normalBorder #7c7c7c
-set $focusedBorder #ffb6b0
+## Leaf-in-Rain Theme by zirconcode
 
-set $activeBorderColor #7C7C7C
-set $activeTextColor #CEFFAC
-set $activeColor #000000
-set $inactiveBorderColor #7C7C7C
-set $inactiveTextColor #EEEEEE
-set $inactiveColor #000000
+# class                 border  bground text    indicator child_border
+client.focused          #6D440E #FFB508 #382307 #FF9F20   #FFB508
+client.focused_inactive #333333 #0F1E2D #EEEEEE #484E50   #5F676A
+client.unfocused        #333333 #222222 #888888 #292D2E   #222222
+client.urgent           #2F343A #900000 #FFFFFF #900000   #900000
+client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
 
-## xmobarTitleColor = "#FFB6B0"
-## xmobarCurrentWorkspaceColor = "#CEFFAC"
-
-## !TODO
-
-# class                 border  backgr. text    indicator child_border
-client.focused          $activeBorderColor #285577 #ffffff #2e9ef4   #285577
-client.focused_inactive $inactiveBorderColor $inactiveColor $inactiveTextColor #484e50   $inactiveBorderColor
-client.unfocused        $normal_border $inactiveColor $inactiveTextColor #292d2e   #222222
-client.urgent           #2f343a #900000 #ffffff #900000   #900000
-client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
-
-client.background       #ffffff
+client.background       #000000
 
 set $mod Mod1
 
@@ -76,7 +62,8 @@ bindsym $mod+Shift+c kill
 
 # start dmenu (a program launcher)
 ## d -> p
-bindsym $mod+p exec dmenu_run
+##bindsym $mod+p exec dmenu_run
+bindsym $mod+p exec "dmenu_run -nf '#FFB508' -nb '#0F1E2D' -sb '#FF6003' -sf '#FFFFFF' -fn 'monospace-10' -p ' > '"
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -274,22 +261,20 @@ bar {
 	strip_workspace_numbers yes
 	workspace_buttons yes
 
-	colors {
-        	background #000000
-        	statusline #ffffff
-        	separator #666666
-
-		## the darn workspace buttons are different height???
-        	focused_workspace  #000000 #333333 #ffffff
-        	#active_workspace   #333333 #000000 #ffffff
-        	inactive_workspace #000000 #000000 #888888
-        	#urgent_workspace   #2f343a #900000 #ffffff
-        	#binding_mode       #2f343a #900000 #ffffff
-    	}
+  colors {
+    background #0F1E2D
+    statusline #D0D0D0
+    separator  #FFFFFF
+ 
+    focused_workspace  #0F1E2D #1E3C5B #FFB508
+    active_workspace   #0F1E2D #0F1E2D #FF6003
+    inactive_workspace #0F1E2D #0F1E2D #EEEEEE
+    urgent_workspace   #2F343A #900000 #FFFFFF
+    binding_mode       #2F343A #900000 #FFFFFF
+  }
 
 
 }
-
 
 
 
