@@ -78,3 +78,5 @@ https://i3wm.org/i3status/manpage.html
 # pipe dmenu order into most used
 
 # background/lockscreen image? mm..
+
+# cava
