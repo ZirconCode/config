@@ -69,3 +69,12 @@ client.background       #ffffff
 
 #TODO: configure i3status
 https://i3wm.org/i3status/manpage.html
+
+# 
+
+
+# use tridactyl addon firefox, mpsyt for music temporary
+
+# pipe dmenu order into most used
+
+# background/lockscreen image? mm..
