@@ -5,30 +5,16 @@ gsettings set org.gnome.desktop.background show-desktop-icons false
 
 # clipboard emptied when container closed??
 
-# hotkeys
-# shift alt c to close, alt p to dmenu
 # function keys
 
-# 'xmobar' no it's i3bar now? hmm.
 
-# 'do it by mouse' <- ahhh, bindsym $mod+Left focus left
-# the jkl; mapping is horrible
-# AHHHHhhhHHHHHH
-
-# disable mouspad key
-
-# verdict, i3 much worse than xmonad so far
-
-# second verdict, ok
 # I dislike the tree structure, it takes too many extra key pressed, automatic layoud and only one container?
 
 # resisizing windows requires a mode... extra key presses
-# nagbar..?
+## fixable
 # there is no border to show activeness of gedit window??
 
-
 # screenshot
-# wifi?
 
 ## why gedit still has no border?
 
@@ -39,47 +25,53 @@ xev
 
 #lock on close? 
 
-# something is very off about the borders...
-
 # todo
 
 # bind arandr
 # bind toggle mouse
+## fix so mouse dissappears when toggle touchpad
 
 # dock i3bar at top, also display title of window inside the bar, ok good now? depends on mode
-
-# class                 border  backgr. text    indicator child_border
-client.focused          #4c7899 #285577 #ffffff #2e9ef4   #285577
-client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
-client.unfocused        #333333 #222222 #888888 #292d2e   #222222
-client.urgent           #2f343a #900000 #ffffff #900000   #900000
-client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
-
-client.background       #ffffff
+## would like window title in i3bar, should be possible
 
 
 # git clone https://github.com/haikarainen/light.git
-
+## for brightness changes working
 
 # third verdict, still ugly but I can live with this. not convinced of how I need to tell it to split
 
 # requires: xss-lock, some other stuff to be installed for hotkeys to actually run
 # meh can't get lock on close to work
+## xss-lock not triggered?
 
-
-#TODO: configure i3status
 https://i3wm.org/i3status/manpage.html
 
-# 
+# use tridactyl addon firefox, mpsyt for music temporary, /cmus, redshift doesnt always work?
 
-
-# use tridactyl addon firefox, mpsyt for music temporary
-
-# pipe dmenu order into most used
+# pipe dmenu order into most used, yeganesh? borrow from xmonad config
 
 # background/lockscreen image? mm..
+## seems to be interfered with by compton
+## better locker?
 
 # cava
 
+# volumeicon ?
+# don't need it so far
+## integrate this into some form of options mode key, some things I need rarer
 
 # TODO redshift toggle script 
+## 
+
+## fix the shit layout managament a bit
+## https://classicforum.manjaro.org/index.php?topic=29773.0
+## https://i3wm.org/docs/layout-saving.html
+## https://www.reddit.com/r/i3wm/comments/6yevkx/how_to_automatically_get_this_layout/
+# maybe helps TODO
+# https://github.com/olemartinorg/i3-alternating-layout
+## save layouts for different initial tasks and run relevant programs.... very nice feature
+
+
+
+
+
