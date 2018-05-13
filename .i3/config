@@ -293,4 +293,9 @@ bar {
 }
 
 
+## eye candy mmmm, hopefully not distracting innefficient =)
+## -cC flags?
+exec --no-startup-id compton -GfF -b -i 0.90 --vsync opengl --no-fading-openclose -O 0.5
+
+
 
