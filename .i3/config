@@ -50,6 +50,8 @@ font pango:monospace 10
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+## TODO compton?
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 ## 
@@ -233,7 +235,8 @@ bindsym XF86AudioPrev exec ~/config/toggletouch.sh
 # XF86Search
 
 ## lock screen
-bindsym XF86Search exec --no-startup-id "i3lock -e -c 000000"
+# -c 000000 for black background no pic
+bindsym XF86Search exec --no-startup-id "i3lock -e -i ~/bg/lockbg.png"
 
 ## border
 default_border pixel 2
@@ -247,13 +250,23 @@ workspace_auto_back_and_forth yes
 exec --no-startup-id xmodmap ~/config/cap2esc
 
 ##autolock
-exec --no-startup-id xautolock -time 15 -cornersize 5 -corners 000- -locker "i3lock -e -c 000000"
+## also -c 000000 otherwise
+exec --no-startup-id xautolock -time 15 -cornersize 5 -corners 000- -locker "i3lock -e -i ~/bg/lockbg.png"
 ## lock on suspend?
 #exec xss-lock -- i3lock -e -c 000000
 # hmm... nope
 
+## Todo
+## config 'mode' for wifi, arandr, and maybe redshift
+
+## temporary?
+exec --no-startup-id nm-applet
+
 ## mmm
 exec --no-startup-id redshift
+
+## background
+exec --no-startup-id feh --bg-fill ~/bg/bg.jpg
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)

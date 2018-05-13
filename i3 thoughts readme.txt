@@ -80,3 +80,6 @@ https://i3wm.org/i3status/manpage.html
 # background/lockscreen image? mm..
 
 # cava
+
+
+# TODO redshift toggle script 
