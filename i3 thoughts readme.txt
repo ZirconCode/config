@@ -31,10 +31,6 @@ xev
 # bind toggle mouse
 ## fix so mouse dissappears when toggle touchpad
 
-# dock i3bar at top, also display title of window inside the bar, ok good now? depends on mode
-## would like window title in i3bar, should be possible
-
-
 # git clone https://github.com/haikarainen/light.git
 ## for brightness changes working
 
@@ -53,6 +49,8 @@ https://i3wm.org/i3status/manpage.html
 # background/lockscreen image? mm..
 ## seems to be interfered with by compton
 ## better locker?
+
+# xss locker working?
 
 # cava
 
