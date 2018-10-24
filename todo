@@ -10,3 +10,9 @@ function weather --argument-names 'city'
     end
 end
 
+
+
+# toDO!
+$mod+Shift+Space
+-> alt-t
+xmonad mappings for i3
