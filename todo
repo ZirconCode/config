@@ -16,3 +16,5 @@ end
 $mod+Shift+Space
 -> alt-t
 xmonad mappings for i3
+
+force matplotlib/seaborn windows to float
