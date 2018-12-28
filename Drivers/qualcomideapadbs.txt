@@ -1,0 +1,5 @@
+sudo lshw -C network
+-> QCA6174 802.11ac
+
+do:
+sudo tee /etc/modprobe.d/ideapad.conf <<< "blacklist ideapad_laptop"

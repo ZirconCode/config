@@ -18,3 +18,7 @@ $mod+Shift+Space
 xmonad mappings for i3
 
 force matplotlib/seaborn windows to float
+
+
+->
+sudo openconnect https://sslvpn.ethz.ch
