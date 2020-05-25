@@ -34,3 +34,7 @@ chmod +x config/start.sh
 had to re-install unity-greeter or lightdm
 also i3status, i3lock
 
+alias scsec="sh ~/.screenlayout/secondary.sh"
+alias scmain="sh ~/.screenlayout/main.sh"
+
+
