@@ -28,6 +28,5 @@ most plugins seem useless?
 
 
 had to re-install unity-greeter or lightdm
-
-
+also i3status, i3lock
 
