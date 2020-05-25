@@ -247,7 +247,7 @@ hide_edge_borders smart
 workspace_auto_back_and_forth yes
 
 ## autostart once
-#exec --no-startup-id xmodmap ~/config/cap2esc
+exec --no-startup-id xmodmap ~/config/cap2esc
 
 ##autolock
 ## also -c 000000 otherwise
@@ -261,16 +261,12 @@ exec --no-startup-id xautolock -time 15 -cornersize 5 -corners 000- -locker "i3l
 
 ## temporary?
 exec --no-startup-id nm-applet
-exec --no-startup-id volumeicon
 
 ## mmm
 exec --no-startup-id redshift
 
 ## background
 exec --no-startup-id feh --bg-fill ~/bg/bg.jpg
-
-exec "~/.i3/start.sh"
-
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -299,8 +295,7 @@ bar {
 
 ## eye candy mmmm, hopefully not distracting innefficient =)
 ## -cC flags?
-
-#exec --no-startup-id compton -GfF -b -i 0.90 --vsync opengl --no-fading-openclose -O 0.5
+exec --no-startup-id compton -GfF -b -i 0.90 --vsync opengl --no-fading-openclose -O 0.5
 
 
 
