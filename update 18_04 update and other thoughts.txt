@@ -1,0 +1,33 @@
+
+volumeicon &
+
+nautilus look-ahead typing is fucked by irredeemable stupidity
+https://bugs.launchpad.net/ubuntu/+source/nautilus/+bug/1767027
+
+xmodmap cap2esc switch again
+
+setxkbmap -layout us -variant altgr-intl -option nodeadkeys
+
+cava still nice
+
+ncspot with sound on i3:
+sudo apt install libpulse-dev libssl-dev libxcb1-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev
+sudo apt install libdbus-1-dev
+sudo apt install cargo
+git clone https://github.com/hrkfdn/ncspot
+cd ncspot
+cargo build
+
+(https://github.com/hrkfdn/ncspot/issues/144)
+
+
+
+switched from fish shell to zsh shell
+oh my zsh, dark solarized / tango theme
+most plugins seem useless? 
+
+
+had to re-install unity-greeter or lightdm
+
+
+
