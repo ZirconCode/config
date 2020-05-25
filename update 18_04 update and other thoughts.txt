@@ -27,6 +27,10 @@ oh my zsh, dark solarized / tango theme
 most plugins seem useless? 
 
 
+chmod +x config/start.sh
+
+
+
 had to re-install unity-greeter or lightdm
 also i3status, i3lock
 
