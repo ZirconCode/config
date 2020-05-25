@@ -103,4 +103,5 @@ source $ZSH/oh-my-zsh.sh
 alias scsec="sh ~/.screenlayout/secondary.sh"
 alias scmain="sh ~/.screenlayout/main.sh"
 
+alias ncspot='~/ncspot/target/debug/ncspot' 
 
