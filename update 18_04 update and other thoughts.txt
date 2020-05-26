@@ -37,4 +37,7 @@ also i3status, i3lock
 alias scsec="sh ~/.screenlayout/secondary.sh"
 alias scmain="sh ~/.screenlayout/main.sh"
 
-
+TODO:
+symlink krusader over nautilus (put configs here)
+i3bar cpu's messed up
+picom flags

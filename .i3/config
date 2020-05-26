@@ -301,6 +301,8 @@ bar {
 ## -cC flags?
 
 #exec --no-startup-id compton -GfF -b -i 0.90 --vsync opengl --no-fading-openclose -O 0.5
-
+##exec --no-startup-id compton # i3 is not comp manag.
+exec --no-startup-id picom -CGb # -d is removed; 
+# TODO driver flags for picom...
 
 
