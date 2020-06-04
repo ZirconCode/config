@@ -41,3 +41,21 @@ TODO:
 symlink krusader over nautilus (put configs here)
 i3bar cpu's messed up
 picom flags
+
+
+
+texstudio
+
+languagetool via https://github.com/languagetool-org/languagetool
+curl -L https://raw.githubusercontent.com/languagetool-org/languagetool/master/install.sh | sudo bash
+config texstudio to use languagetool.jar
+uses almost 1gb ram?
+
+symlink java -jar languagetool-commandline.jar -l en-US test.txt
+for 'quick' cmd use
+
+
+
+
+
+
