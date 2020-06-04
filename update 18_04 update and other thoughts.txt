@@ -42,8 +42,9 @@ symlink krusader over nautilus (put configs here)
 i3bar cpu's messed up
 picom flags
 texstudio config (doesn't save views?)
+  https://tex.stackexchange.com/questions/547794/making-texstudio-remember-the-window-view-arrangement
 github keys
-
+texstudio vim bindings open issue TODO if find time
 
 texstudio
 
@@ -57,7 +58,10 @@ for 'quick' cmd use;
 java -jar languagetool-commandline.jar -l en-US test.txt
 
 
-
+TODO vim
+set ignorecase
+set smartcase
+https://vim.fandom.com/wiki/Vim_Tips_Wiki
 
 
 
