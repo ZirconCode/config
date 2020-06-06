@@ -64,4 +64,12 @@ set smartcase
 https://vim.fandom.com/wiki/Vim_Tips_Wiki
 
 
+blueman applet for bluetooth headset working, but sound devices/alsa mixes does wird stuff?
+pavucontrol
+cava fragile here?
+restart volumeicon
+
+fix toggletouch with xinput
+
+
 
