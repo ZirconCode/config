@@ -75,4 +75,7 @@ fix toggletouch with xinput
 clockless / distractionless mode
 
 
+vim pathogen setup;
+vim todolist etc.
+nevermind -> Vundle
 
