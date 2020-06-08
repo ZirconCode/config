@@ -72,4 +72,7 @@ restart volumeicon
 fix toggletouch with xinput
 
 
+clockless / distractionless mode
+
+
 
