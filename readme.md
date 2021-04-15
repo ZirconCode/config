@@ -2,6 +2,10 @@
 My Config Files
 ===
 
+
+Note: no longer relevant after switch to arch
+
+
 These are my personal config notes, on github, mainly so I have them when I need them again.
 
 

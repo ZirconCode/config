@@ -1,0 +1,2 @@
+cat Reminders.html | pup 'ul:parent-of(li:parent-of(span:contains("active")))' | pup 'li:first-child' | pup 'span:last-child text{}' | awk NF | sed 's/^[ \t]*//'
+
